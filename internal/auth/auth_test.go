@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"testing"
-	"net/http"
 	"fmt"
+	"net/http"
+	"testing"
 )
 
 func TestGetBearerToken(t *testing.T) {
@@ -65,4 +65,3 @@ func TestGetBearerToken(t *testing.T) {
 //
 // 	return splitAuth[1], nil
 // }
-
