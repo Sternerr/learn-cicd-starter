@@ -16,7 +16,7 @@ func TestGetBearerToken(t *testing.T) {
 		{
 			name: "Valid Bearer token",
 			headers: http.Header{
-				"Authorization": []string{"Api valid_token"},
+				"Authorization": []string{"ApiKey valid_token"},
 			},
 			wantToken: "valid_token",
 			wantErr:   false,
